@@ -1,0 +1,14 @@
+Slug: twin-pine-estate
+Address: Twin Pine Estate
+City: Boulder County
+State: CO
+Beds: 5
+Baths: 4.5
+SquareFeet: 4,640
+Image: /images/source/listed_4.jpg
+Alt: Elegant dining room with marble island and pendant lighting
+Order: 3
+
+---
+
+Chef-grade kitchen, marble island, and formal dining flow through a fully reimagined floor plan with private acreage.

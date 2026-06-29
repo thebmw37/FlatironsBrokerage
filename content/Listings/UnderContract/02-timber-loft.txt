@@ -1,0 +1,14 @@
+Slug: timber-loft
+Address: Timber & Brick Loft
+City: Boulder
+State: CO
+Beds: 2
+Baths: 2
+SquareFeet: 1,680
+Image: /images/source/contracted_2.jpg
+Alt: Loft kitchen with exposed brick, timber beams, and gas range island
+Order: 2
+
+---
+
+Exposed brick and timber beams give this loft a quiet downtown gravity. Under contract above list.

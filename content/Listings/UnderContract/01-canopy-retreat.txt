@@ -1,0 +1,14 @@
+Slug: canopy-retreat
+Address: Canopy Retreat
+City: Boulder County
+State: CO
+Beds: 4
+Baths: 3
+SquareFeet: 2,980
+Image: /images/source/contracted.jpg
+Alt: Romantic bedroom retreat with canopy bed and verandah
+Order: 1
+
+---
+
+Tucked into a wooded foothills lot — under contract within a week of going live.

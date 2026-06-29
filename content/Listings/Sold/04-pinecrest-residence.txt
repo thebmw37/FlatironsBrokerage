@@ -1,0 +1,14 @@
+Slug: pinecrest-residence
+Address: Pinecrest Residence
+City: Boulder
+State: CO
+Beds: 5
+Baths: 4.5
+SquareFeet: 4,210
+Image: /images/source/sold_5.jpg
+Alt: Luxury great room with layered lighting and warm woods
+Order: 4
+
+---
+
+Architecturally significant Pinecrest residence — represented seller through a multi-offer close.

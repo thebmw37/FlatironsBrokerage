@@ -1,0 +1,14 @@
+Slug: pearl-park-suite
+Address: Pearl Park Suite
+City: Boulder
+State: CO
+Beds: 3
+Baths: 2.5
+SquareFeet: 2,420
+Image: /images/source/sold_1.jpg
+Alt: Sleek modern living room with neutral palette and floor-to-ceiling drapes
+Order: 1
+
+---
+
+A polished sit-down condo blocks from Pearl Street — sold above ask.

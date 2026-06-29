@@ -1,0 +1,14 @@
+Slug: flatirons-craftsman
+Address: South Boulder Craftsman
+City: Boulder
+State: CO
+Beds: 3
+Baths: 2
+SquareFeet: 2,210
+Image: /images/source/listed-2.jpg
+Alt: Sun-filled living room with twin sofas and modern fireplace
+Order: 2
+
+---
+
+Light-filled craftsman moments from the Chautauqua trailhead. Open living, refreshed kitchen, and a generous flat lot.

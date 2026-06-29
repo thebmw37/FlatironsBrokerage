@@ -1,0 +1,15 @@
+Slug: mesa-ridge
+Address: 4725 Mesa Ridge Lane
+City: Boulder
+State: CO
+Zip: 80302
+Beds: 4
+Baths: 3.5
+SquareFeet: 3,856
+Image: /images/source/beautiful-shot-modern-house-kitchen.jpg
+Alt: Bright kitchen with white cabinets, skylights, and breakfast bar
+Order: 1
+
+---
+
+Modern luxury meets timeless elegance. Vaulted ceilings, gourmet kitchen with quartz, primary suite with spa bath, and a private patio with built-in fire pit.

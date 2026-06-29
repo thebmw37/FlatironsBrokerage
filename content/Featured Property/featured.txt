@@ -1,0 +1,22 @@
+# The featured property shown on the homepage. Only one file is used —
+# the first alphabetically in this folder.
+
+Address: 4725 Mesa Ridge Lane
+City: Boulder
+State: CO
+Zip: 80302
+Status: Featured Listing
+Beds: 4
+BathsFull: 3
+BathsHalf: 1
+SquareFeet: 3,856
+Image: /images/featured-property.png
+
+Highlight: Vaulted ceilings & open-concept main level
+Highlight: Gourmet kitchen with quartz countertops
+Highlight: Primary suite with spa-style bath and walk-in closet
+Highlight: Private patio, landscaped backyard, built-in fire pit
+
+---
+
+This stunning 3,856 SF home offers 4 bedrooms, 3 full baths, and 1 half bath, blending modern luxury with timeless elegance. The open-concept living area features vaulted ceilings, a gourmet kitchen with quartz countertops, and a cozy fireplace perfect for gatherings. Retreat to the primary suite with a spa-style bath and walk-in closet. Outdoor living shines with a private patio, landscaped backyard, and built-in fire pit.

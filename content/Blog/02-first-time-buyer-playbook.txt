@@ -1,0 +1,8 @@
+Slug: first-time-buyer-playbook
+Title: The First-Time Buyer Playbook for the Front Range
+Category: Buyers
+Date: May 2026
+ReadMinutes: 8
+Image: /images/source/modern-minimalist-hallway-interior.jpg
+Excerpt: From pre-approval through closing, a step-by-step walk-through built for first-time buyers in Boulder, Louisville, and the surrounding foothills.
+Order: 2

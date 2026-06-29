@@ -1,0 +1,8 @@
+Slug: boulder-market-outlook
+Title: Boulder Market Outlook: What Buyers and Sellers Should Watch
+Category: Market Notes
+Date: June 2026
+ReadMinutes: 6
+Image: /images/source/flatirons_hero_bg.jpg
+Excerpt: Inventory is finally loosening along the Front Range. Here is what that means for pricing, negotiation, and timing your next move in Boulder.
+Order: 1

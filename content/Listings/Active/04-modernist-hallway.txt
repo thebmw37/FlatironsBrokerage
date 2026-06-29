@@ -1,0 +1,14 @@
+Slug: modernist-hallway
+Address: Mapleton Hill Modernist
+City: Boulder
+State: CO
+Beds: 4
+Baths: 3
+SquareFeet: 3,120
+Image: /images/source/modern-minimalist-hallway-interior.jpg
+Alt: Sunlit modern minimalist hallway with sliding glass and walnut accents
+Order: 4
+
+---
+
+Architect-designed modernist on a quiet Mapleton block — walnut, white oak, and walls of glass open to the foothills.

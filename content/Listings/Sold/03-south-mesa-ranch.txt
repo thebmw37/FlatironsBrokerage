@@ -1,0 +1,14 @@
+Slug: south-mesa-ranch
+Address: South Mesa Ranch
+City: Boulder
+State: CO
+Beds: 4
+Baths: 3
+SquareFeet: 3,240
+Image: /images/source/sold_3.jpg
+Alt: Open-concept dining and living with French doors to the patio
+Order: 3
+
+---
+
+A right-sized ranch with French doors out to the garden — closed on terms above list.

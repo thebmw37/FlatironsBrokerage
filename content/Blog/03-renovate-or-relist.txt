@@ -1,0 +1,8 @@
+Slug: renovate-or-relist
+Title: Renovate or Re-list? A Broker’s Framework for Sellers
+Category: Sellers
+Date: April 2026
+ReadMinutes: 7
+Image: /images/source/beautiful-shot-modern-house-kitchen.jpg
+Excerpt: A simple way to think about pre-sale renovation: which projects pay back, which to skip, and how to read what your specific buyer pool actually rewards.
+Order: 3

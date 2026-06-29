@@ -1,0 +1,8 @@
+Slug: investor-lens-boulder
+Title: An Investor’s Lens on Boulder Rentals
+Category: Investors
+Date: March 2026
+ReadMinutes: 9
+Image: /images/source/rocks-boulder_colorado.jpg
+Excerpt: How we evaluate small-multifamily and single-family rental opportunities in a market where land, regulation, and demand all push in different directions.
+Order: 4

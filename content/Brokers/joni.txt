@@ -1,0 +1,14 @@
+# Broker profile. See content/README.md for the file format.
+
+Name: Joni Renee Zalk
+Title: Founder & Real Estate Broker
+ShortTitle: Real Estate Broker
+Email: joni@flatironsbrokerage.com
+Photo: /images/source/joni_2_small.jpg
+Order: 1
+
+---
+
+At Flatirons Brokerage, real estate has always been matchmaking. That conviction goes back to our founder, Joni Renee Zalk — a natural matchmaker since childhood, where the instinct resulted in several of her friends getting married. At 22, while pursuing her Bachelor’s in business, she bought and renovated her first house. While finishing her Master’s, she bought another property, renovated it, and rented it out. Becoming a broker — and helping others buy, sell, and invest — was the natural next chapter, and the foundation of the brokerage we run today.
+
+We see our job as matchmaking: finding the home that fits your needs and will make you happy in the long run. Our goal is to make every real estate experience seamless, informed, and successful. Whether you’re buying, selling, investing, or renovating, we provide personalized guidance and expert advice every step of the way.

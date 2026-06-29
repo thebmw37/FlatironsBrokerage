@@ -1,0 +1,14 @@
+Slug: industrial-kitchen-loft
+Address: North Boulder Loft
+City: Boulder
+State: CO
+Beds: 2
+Baths: 2
+SquareFeet: 1,540
+Image: /images/source/sold_2.jpg
+Alt: Industrial-style kitchen with black pendants and white cabinetry
+Order: 2
+
+---
+
+Industrial elegance in NoBo — full renovation, sold to the first showing.
