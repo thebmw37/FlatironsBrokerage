@@ -1,0 +1,12 @@
+# Team member profile. See README.md for the file format.
+
+Name: Kim Marcuche
+Title: Financial Operations Manager
+ShortTitle: Financial Operations Manager
+Email: kim@marcuchemetrics.com
+Photo: /images/source/kim_headshot.png
+Order: 2
+
+---
+
+Kim Marcuche is the founder of Marcuche Metrics LLC, a Boulder-based bookkeeping and business support firm. With 15+ years of experience spanning corporate leadership and small business ownership, Kim brings a combination of big-picture financial strategy and hands-on operational expertise. She is a QuickBooks Certified Expert and IRS Authorized Reporting Agent, and helps the business to stay organized, compliant, and financially sound.

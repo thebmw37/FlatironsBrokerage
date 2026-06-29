@@ -15,7 +15,7 @@ files in this repo and the website updates automatically within a few minutes.
 ## Folder layout
 
 ```
-Brokers/                    ← One file per broker
+Team/                       ← One file per team member (brokers, staff, etc.)
 Blog/                       ← One file per blog post
 Listings/
   Active/                   ← Homes currently for sale
@@ -67,7 +67,7 @@ The rules:
 
 ## What each folder expects
 
-### `Brokers/` — broker bios
+### `Team/` — team member profiles (brokers, staff, etc.)
 
 ```
 Name: Joni Renee Zalk
