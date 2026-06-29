@@ -1,113 +1,173 @@
-# Flatirons Brokerage — realtorJoni
+# Flatirons Brokerage — Site Content
 
-A redesign of [flatironsbrokerage.com](https://www.flatironsbrokerage.com/) for Joni Renee Zalk, built to evoke the luxury real estate aesthetic of sites like Burris Real Estate while preserving the original site's content, voice, and imagery.
+This repository holds the **editable content** for
+[flatironsbrokerage.com](https://www.flatironsbrokerage.com). Every piece of
+content shown on the site — broker bios, blog posts, listings, testimonials,
+the featured property — lives here as a plain `.txt` file. Edit, add, or delete
+files in this repo and the website updates automatically within a few minutes.
 
-## Stack
+> The website source code lives in a separate repository.
+> This repo is **content only** — designed to be safe to edit through the
+> GitHub web UI without touching any code.
 
-- **Vite + React 19 + TypeScript**
-- **Tailwind CSS v4** with a custom design token theme (ivory/charcoal/brass palette, Cormorant Garamond + Inter)
-- **React Router v7** for client-side navigation
-- **lucide-react** for icons
-- **Playwright** (dev-only) for crawling source imagery from the client's existing Squarespace site
+---
 
-## Routes
-
-| Path | Page | Purpose |
-|---|---|---|
-| `/` | Home | Hero, broker intro, philosophy, exclusive listings, testimonials carousel, featured property, CTA |
-| `/about` | About | Long-form bio, philosophy pillars, full testimonial wall, local-color Flatirons section |
-| `/properties` | Properties | Hub linking to Active / Under Contract / Sold + active preview |
-| `/properties/active` | Active Listings | Full grid of homes currently for sale |
-| `/properties/under-contract` | Under Contract | Pending transactions |
-| `/properties/sold` | Sold | Recent closings |
-| `/contact` | Contact | Direct line + inquiry form (mailto submission) |
-
-## Design system
-
-All design tokens are defined in `src/index.css` under `@theme`:
-
-- **Surfaces:** `ivory`, `ivory-deep`, `stone`, `stone-soft`, `paper`
-- **Brand:** `charcoal`, `charcoal-soft`, `graphite`, `brass`, `brass-soft`, `brass-deep`
-- **Type:** `font-display` (Cormorant Garamond, with `.font-display-italic` variant) and `font-sans` (Inter)
-- **Conventions:** all-caps tracked eyebrows (`.eyebrow`), thin brass dividers (`.divider-brass`), full-bleed hero with slow zoom, masonry testimonial wall
-
-## Content
-
-Editable content (broker bios, blog posts, listings, testimonials, the
-featured property) lives in **plain `.txt` files** under [`content/`](./content)
-and is loaded dynamically at runtime from the GitHub repo
-[`thebmw37/FlatironsBrokerage`](https://github.com/thebmw37/FlatironsBrokerage).
-The website ships with a copy of every file under `content/` as a fallback,
-so it still renders correctly if GitHub is unreachable.
-
-To edit content, see [`content/README.md`](./content/README.md). It documents
-the file format and shows how to add or change listings, blog posts, and
-testimonials directly through the GitHub web UI — no developer involvement
-required.
-
-Static configuration that doesn't change (navigation, the "how we work"
-pillars, site name) still lives in `src/data/site.ts`.
-
-## Imagery
-
-All hero/property/portrait imagery was downloaded from the client's existing site into `public/images/source/`. To re-run the crawl (e.g. after the client uploads new photos):
-
-```bash
-npm run crawl-images
-```
-
-The script uses Playwright to visit `/`, `/contact`, and `/properties`, scrapes every `<img>` tag and background-image URL, and writes them to `public/images/source/` with their original filenames.
-
-## Scripts
-
-```bash
-npm run dev             # Vite dev server on http://localhost:5173
-npm run build           # Type-check + production build
-npm run preview         # Preview the production build
-npm run lint            # ESLint
-npm run crawl-images    # Re-download imagery from flatironsbrokerage.com
-npm run verify-content  # Smoke-test that .txt content renders on every page
-```
-
-## Project layout
+## Folder layout
 
 ```
-realtorJoni/
-├── content/                    # 📄 EDITABLE CONTENT (see content/README.md)
-│   ├── Brokers/                #   broker bios
-│   ├── Blog/                   #   blog posts
-│   ├── Listings/
-│   │   ├── Active/             #   homes for sale
-│   │   ├── UnderContract/      #   pending transactions
-│   │   └── Sold/               #   recent closings
-│   ├── Testimonials/           #   client testimonials
-│   └── Featured Property/      #   home-page featured listing
-├── public/
-│   └── images/source/          # Imagery pulled from existing site
-├── scripts/
-│   ├── crawl-images.ts         # Playwright image crawler
-│   ├── screenshot.ts           # Full-page screenshot capture (dev review)
-│   └── verify-content.ts       # Smoke-test that .txt content renders
-├── src/
-│   ├── components/             # Layout, Header, Footer, PageHero, CtaBanner,
-│   │                           # SectionHeader, TestimonialCarousel,
-│   │                           # PropertyCard, PropertyGrid, Monogram
-│   ├── data/
-│   │   ├── site.ts             # Static site config (nav, philosophy, etc.)
-│   │   └── properties.ts       # Re-exports Property types
-│   ├── hooks/
-│   │   ├── contentContext.ts   # React context + hooks (useContent, ...)
-│   │   └── useContent.tsx      # ContentProvider that loads from GitHub
-│   ├── lib/
-│   │   ├── contentParser.ts    # .txt → ParsedDoc
-│   │   ├── contentLoader.ts    # GitHub fetcher + bundled fallback + cache
-│   │   └── contentViews.ts     # ParsedDoc → typed UI shapes
-│   ├── pages/                  # Home / About / Blog / Properties / Active /
-│   │                           # UnderContract / Sold / Contact
-│   ├── App.tsx                 # Router config
-│   ├── main.tsx                # React entry (wraps app in ContentProvider)
-│   └── index.css               # Tailwind + theme tokens
-├── index.html
-├── vite.config.ts
-└── package.json
+Brokers/                    ← One file per broker
+Blog/                       ← One file per blog post
+Listings/
+  Active/                   ← Homes currently for sale
+  UnderContract/            ← Homes in contract
+  Sold/                     ← Recent closings
+Testimonials/               ← One file per client testimonial
+Featured Property/          ← The home highlighted on the home page
 ```
+
+Files inside a folder are sorted alphabetically. Prefix file names with
+`01-`, `02-`, etc. to control the display order — or set an `Order: N` field
+inside the file for finer control.
+
+---
+
+## File format (in plain English)
+
+Every file is a regular text file with this shape:
+
+```
+# Lines starting with a hash are comments and ignored.
+
+Key: Value
+AnotherKey: Another value
+Photo: /images/source/joni_2_small.jpg
+
+---
+
+Optional body text goes below the line with three dashes.
+
+Blank lines start a new paragraph.
+```
+
+The rules:
+
+1. **One field per line** — `Key: Value`. Spaces around the colon are fine.
+   Keys are case-insensitive (`Name`, `name`, `NAME` all work).
+2. **Comments** start with `#` and are ignored.
+3. **Repeating a key turns it into a list.** Three `Highlight: ...` lines
+   become a three-item list on the site.
+4. **Three dashes (`---`)** on their own line separate the metadata above
+   from the free-form body below. The body is optional.
+5. **Blank lines in the body** start a new paragraph.
+6. **Images** that start with `/images/...` are loaded from the website's
+   built-in image library. Values that start with `http` are loaded directly
+   from that URL.
+
+---
+
+## What each folder expects
+
+### `Brokers/` — broker bios
+
+```
+Name: Joni Renee Zalk
+Title: Founder & Real Estate Broker
+Email: joni@flatironsbrokerage.com
+Photo: /images/source/joni_2_small.jpg
+Order: 1
+
+---
+
+A short biographical paragraph.
+
+A second paragraph.
+```
+
+### `Blog/` — blog posts
+
+```
+Title: Boulder Market Outlook
+Category: Market Notes
+Date: June 2026
+ReadMinutes: 6
+Image: /images/source/flatirons_hero_bg.jpg
+Excerpt: A short summary that appears on the blog listing page.
+Order: 1
+```
+
+### `Listings/Active/`, `Listings/UnderContract/`, `Listings/Sold/`
+
+```
+Address: 4725 Mesa Ridge Lane
+City: Boulder
+State: CO
+Zip: 80302
+Beds: 4
+Baths: 3.5
+SquareFeet: 3,856
+Image: /images/source/beautiful-shot-modern-house-kitchen.jpg
+Alt: Bright kitchen with white cabinets and skylights
+Order: 1
+
+---
+
+A short blurb shown on the property card.
+```
+
+### `Testimonials/`
+
+```
+Author: Stephanie Sexton
+Detail: 525 S 43rd Street, Boulder
+Order: 1
+
+---
+
+The testimonial quote goes here. Use blank lines for paragraph breaks
+if it's long.
+```
+
+### `Featured Property/`
+
+Only one file is read from this folder (the first alphabetically). It looks
+like a listing file but adds a status, separate full/half bath counts, and
+a list of highlights:
+
+```
+Address: 4725 Mesa Ridge Lane
+City: Boulder
+State: CO
+Zip: 80302
+Status: Featured Listing
+Beds: 4
+BathsFull: 3
+BathsHalf: 1
+SquareFeet: 3,856
+Image: /images/featured-property.png
+
+Highlight: Vaulted ceilings & open-concept main level
+Highlight: Gourmet kitchen with quartz countertops
+Highlight: Primary suite with spa-style bath and walk-in closet
+Highlight: Private patio, landscaped backyard, built-in fire pit
+
+---
+
+The full property description goes here, paragraph by paragraph.
+```
+
+---
+
+## How to edit, add, or remove content on GitHub
+
+1. From the repo home page, click into the folder you want to change
+   (e.g. `Listings/Active`).
+2. **To edit a file:** click its name, then click the pencil icon in the top
+   right. Make your changes, scroll down, and click **Commit changes**.
+3. **To add a file:** click **Add file → Create new file**. Name it
+   something like `silver-creek.txt`, paste the format above, fill in the
+   fields, and commit.
+4. **To remove a file:** open it, click the trash-can icon, and commit.
+
+The website re-checks this repo every few minutes, so your changes will
+appear shortly after committing. (Hard-refresh the page if you want to see
+them right away.)
