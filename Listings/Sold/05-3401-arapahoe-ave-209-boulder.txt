@@ -1,0 +1,16 @@
+Slug: 3401-arapahoe-ave-209-boulder
+Address: 3401 Arapahoe Ave Unit 209
+City: Boulder
+State: CO
+Zip: 80303
+Price: $519,900
+Beds: 1
+Baths: 1
+SquareFeet: 1,044
+Image: /images/source/sold_1.jpg
+Alt: 3401 Arapahoe Ave Unit 209, Boulder — modern condo interior
+Order: 5
+
+---
+
+Represented both buyer and seller on this 1-bed, 1-bath, 1,044 SF condo on Arapahoe — closed at $519,900.

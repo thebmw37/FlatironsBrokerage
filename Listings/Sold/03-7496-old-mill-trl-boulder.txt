@@ -1,0 +1,16 @@
+Slug: 7496-old-mill-trl-boulder
+Address: 7496 Old Mill Trl
+City: Boulder
+State: CO
+Zip: 80301
+Price: $877,499
+Beds: 5
+Baths: 5
+SquareFeet: 3,388
+Image: https://photos.zillowstatic.com/fp/7f781d0a706fd4eb983de93a3bc30654-p_h.jpg
+Alt: 7496 Old Mill Trl, Boulder, CO — represented buyer
+Order: 3
+
+---
+
+Represented the buyer on this 5-bed, 5-bath, 3,388 SF home in Boulder — closed at $877,499.

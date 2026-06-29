@@ -1,0 +1,16 @@
+Slug: 7047-goose-point-ct-longmont
+Address: 7047 Goose Point Ct
+City: Longmont
+State: CO
+Zip: 80503
+Price: $2,210,000
+Beds: 6
+Baths: 7
+SquareFeet: 7,132
+Image: https://photos.zillowstatic.com/fp/1e6f4e2be52e50b06ed1692fd240ec0c-p_h.jpg
+Alt: 7047 Goose Point Ct, Longmont, CO — sold by Joni Renee Zalk
+Order: 1
+
+---
+
+Represented the seller on this 6-bed, 7-bath, 7,132 SF estate in Longmont — $2,210,000 sale price.

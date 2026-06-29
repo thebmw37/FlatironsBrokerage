@@ -1,0 +1,16 @@
+Slug: 7539-stroh-rd-parker
+Address: 7539 Stroh Road
+City: Parker
+State: CO
+Zip: 80134
+Price: $1,310,000
+Beds: 5
+Baths: 4
+SquareFeet: 6,753
+Image: https://photos.zillowstatic.com/fp/cb040ef4063514e7b31765f3269abfe7-p_h.jpg
+Alt: 7539 Stroh Road, Parker, CO — represented buyer
+Order: 2
+
+---
+
+Represented the buyer on this 5-bed, 4-bath, 6,753 SF home in Parker — closed at $1,310,000.

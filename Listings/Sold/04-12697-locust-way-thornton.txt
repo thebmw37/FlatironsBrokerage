@@ -1,0 +1,16 @@
+Slug: 12697-locust-way-thornton
+Address: 12697 Locust Way
+City: Thornton
+State: CO
+Zip: 80602
+Price: $540,000
+Beds: 5
+Baths: 4
+SquareFeet: 4,725
+Image: https://photos.zillowstatic.com/fp/0fc694c1bc40babac2b4e97f2372dc1b-p_h.jpg
+Alt: 12697 Locust Way, Thornton, CO — sold by Joni Renee Zalk
+Order: 4
+
+---
+
+Represented the seller on this 5-bed, 4-bath, 4,725 SF home in Thornton — closed at $540,000.
