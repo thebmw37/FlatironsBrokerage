@@ -4,6 +4,7 @@ Category: Sellers
 Date: April 2026
 ReadMinutes: 7
 Excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+Image: /images/source/chautauqua-flatirons.jpg
 Order: 3
 
 ---
