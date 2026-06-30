@@ -1,5 +1,5 @@
 Slug: mesa-ridge
-Address: 4725 Mesa Ridge Lane
+Address: Example
 City: Boulder
 State: CO
 Zip: 80302
@@ -12,4 +12,4 @@ Order: 1
 
 ---
 
-Modern luxury meets timeless elegance. Vaulted ceilings, gourmet kitchen with quartz, primary suite with spa bath, and a private patio with built-in fire pit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

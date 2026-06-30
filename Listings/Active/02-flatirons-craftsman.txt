@@ -1,5 +1,5 @@
 Slug: flatirons-craftsman
-Address: South Boulder Craftsman
+Address: Example
 City: Boulder
 State: CO
 Beds: 3
@@ -11,4 +11,4 @@ Order: 2
 
 ---
 
-Light-filled craftsman moments from the Chautauqua trailhead. Open living, refreshed kitchen, and a generous flat lot.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

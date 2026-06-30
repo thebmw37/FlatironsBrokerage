@@ -1,5 +1,5 @@
 Slug: twin-pine-estate
-Address: Twin Pine Estate
+Address: Example
 City: Boulder County
 State: CO
 Beds: 5
@@ -11,4 +11,4 @@ Order: 3
 
 ---
 
-Chef-grade kitchen, marble island, and formal dining flow through a fully reimagined floor plan with private acreage.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
