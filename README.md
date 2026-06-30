@@ -143,7 +143,7 @@ Beds: 4
 BathsFull: 3
 BathsHalf: 1
 SquareFeet: 3,856
-Image: /images/featured-property.png
+Image: /images/source/beautiful-shot-modern-house-kitchen.jpg
 
 Highlight: Vaulted ceilings & open-concept main level
 Highlight: Gourmet kitchen with quartz countertops
